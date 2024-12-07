@@ -1,0 +1,30 @@
+body {
+    font-family: Helvetica, Helvetica;
+    background-color: ivory;
+    color: aquamarine;
+}
+
+h1 {
+    color: #605969;
+}
+
+a {
+    color: darkkhaki;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+ul > li {
+    font-weight: bolder;
+}
+
+ul li:nth-child(3) {
+    background-color: chocolate;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
